@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?gym);
+    background-repeat:no-repeat;
+     background-size:cover; 
+    opacity: 0.8;
+}
+
+
+
+.left{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    /* border: 2px solid red; */
+    color: white;
+    display:inline-block;
+    
+}
+.left img{
+    width: 85px;
+    margin: 12px;
+
+}
+div {
+    font-size: 22px;
+    
+
+}
+.midle{
+    /* border: 2px solid green; */
+    color: white;
+   display: block;
+   width: 33%;
+   margin: 44px auto;
+   text-align: center;
+}
+.right{
+    position: absolute;
+    right: 34px ;
+    top: 50px;
+    /* border: 2px solid yellow ; */
+    color: white;
+    display: inline-block; 
+
+}
+.btn{
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    bg: wh;
+    background: transparent;
+    color: white;
+}
+.btn:hover{
+background-color: black;
+font-size: large;
+color:white ;
+}
+.navbar{
+    display:inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    position: sticky;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    padding: 11px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover{
+    background: white;
+    color:black;
+    font-size: large;
+    padding: 11px;
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+
+.container{
+    /* border: 2px solid white; */
+    margin: 129px 457px;
+    padding: 2px 2px;
+    width: 150px;
+    border-radius: 28px;
+    height: 200px;
+}
+
+.form input{
+    text-align: center;
+    display: block;
+    width: 419px;
+    padding: 6px;
+    background : white;
+    color: black;
+    border-radius: 11px;
+    font-size: 20px;
+}
+.form input:hover{
+    font-size: large;
+    text-decoration-color: black;
+   cursor: pointer;
+}
+
+
+.container button{
+    display: block;
+    width: 287%;
+    margin: 5px;
+    padding: 5px;
+    background: none;
+    color: white;
+}

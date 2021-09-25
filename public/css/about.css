@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+body {
+background: url(../img/gym3.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#container1 {
+border: 2px solid white;
+display: block;
+height: 238px;
+margin: 51px 29px;
+padding: 58px;
+color: white;
+height: 350px;
+
+}
+
+h2{
+text-align: center;
+font-size: 33px;
+font-family:Arial, Helvetica, sans-serif
+}
+
+#container1 p{
+font-size: 22px;
+float: left;
+}
+
+
+
+
+#container2 {
+border: 2px solid white;
+display: block;
+color: white;
+margin: -45px 28px;
+padding: 37px 22px;
+height: 330px;
+}
+
+#container2 li {
+font-size: 22px;
+}
+
+#container3 {
+border: 2px solid white;
+display:block;
+color: white;
+margin: 58px 28px;
+padding: 30px 43px;
+height: 340px;
+}
+#container3 li{
+font-size: 22px;
+}

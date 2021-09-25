@@ -1,0 +1,17 @@
+{
+  "name": "fooodwala",
+  "version": "1.0.0",
+  "description": "this for ordering food",
+  "main": "food.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":  "node src/food.js"
+  },
+  "author": "yogi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
