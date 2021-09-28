@@ -26,6 +26,7 @@ app.use(express.static(staticPath));
 app.get("/" ,(req,res)=>{
   res.render('login.hbs')
 })
+
 app.post('Contact', (req,res)=>{
 let mydata =new contact(req.body);
 mydata.save().then((req,res)=>{
